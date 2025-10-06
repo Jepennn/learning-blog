@@ -11,6 +11,7 @@ name: define workflow
 
 on: define trigger
 
+jobs
 jobs: define jobs
   define job:
     runs-on: define runner
