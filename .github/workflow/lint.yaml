@@ -4,7 +4,7 @@ name: Lint
 
 on:
   push:
-    branches: [main]
+    branches: [main, feat/ci/cd-pipelines]
 
 ## A job is a group of steps that run together
 jobs:
