@@ -1,0 +1,22 @@
+This is a short file to keep track of the devops course I'm currently taking.
+
+# Docker
+- I finshed the docker chapter. There I learned how to use docker for development use and how to use a volume to get the live updating functionality.
+
+# CI/CD pipplines
+
+## YAML aint markup language
+
+name: define workflow
+
+on: define trigger
+
+jobs: define jobs
+  define job:
+    runs-on: define runner
+    steps: define steps
+      - name: define step name
+        uses: define action
+        with: define action inputs
+        env: define environment variables
+        run: define command to run                       
