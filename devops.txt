@@ -11,12 +11,4 @@ name: define workflow
 
 on: define trigger
 
-jobs: define jobs
-  define job:
-    runs-on: define runner
-    steps: define steps
-      - name: define step name
-        uses: define action
-        with: define action inputs
-        env: define environment variables
-        run: define command to run                       
+jobs
